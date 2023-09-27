@@ -1,0 +1,35 @@
+.flexbox {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.rectangle1 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid gray;
+  border-radius: 25px;
+  background-color: rgba(255, 204, 102, 0.7);
+}
+
+.rectangle2 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid gray;
+  border-radius: 25px;
+  background-color: rgba(204, 51, 0, 0.7);
+}
+
+#rectangle2 {
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
+
+#rectangle3 {
+  transform: translateX(-50px);
+}
+
+#rectangle4 {
+  transform: translateY(-50px);
+}
