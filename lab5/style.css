@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: auto auto;
+}
+
+a.button {
+  text-decoration: none;
+  color: initial;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 200px;
+  height: 200px;
+  margin: auto auto;
+}
+
+#colorBar {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 200px;
+  margin: auto auto;
+}
