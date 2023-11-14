@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 10px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.personContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: darkslategray;
+  color: white;
+  font-size: 20px;
+  width: 20%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.personContainer img {
+  height: auto;
+}
+
+.buttonGray {
+  width: 200px;
+  background-color: darkslategrey;
+  color: white;
+}
