@@ -1,0 +1,13 @@
+.clicked-1 {
+  color: red;
+  background-color: black;
+}
+
+.clicked-2 {
+  color: white;
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+}
