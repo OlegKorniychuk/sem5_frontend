@@ -78,12 +78,12 @@ function App() {
           <button onClick={goToFirstPart}>Part 1</button>
         </div>
         <div className='goodsCardsContainer'>
-          <GoodsCard name='BMW' price='1250000' image='/bmw.jpg' />
-          <GoodsCard name='Fiat' price='470000' image='/fiat.jpg' />
-          <GoodsCard name='Ford' price='385000' image='/ford.jpg' />
-          <GoodsCard name='Opel' price='420000' image='/opel.jpg' />
-          <GoodsCard name='Scoda' price='710000' image='/scoda.jpg' />
-          <GoodsCard name='Toyota' price='940000' image='/toyota.jpg' />
+          <GoodsCard name='BMW' price='1250000' image='bmw.jpg' />
+          <GoodsCard name='Fiat' price='470000' image='fiat.jpg' />
+          <GoodsCard name='Ford' price='385000' image='ford.jpg' />
+          <GoodsCard name='Opel' price='420000' image='opel.jpg' />
+          <GoodsCard name='Scoda' price='710000' image='scoda.jpg' />
+          <GoodsCard name='Toyota' price='940000' image='toyota.jpg' />
         </div>
       </div>
     )}
