@@ -1,15 +1,22 @@
 {
   "files": {
     "main.css": "/sem5_frontend/static/css/main.bcf5385e.css",
-    "main.js": "/sem5_frontend/static/js/main.fb39a6ed.js",
+    "main.js": "/sem5_frontend/static/js/main.f222c193.js",
     "static/js/787.d4aba7ab.chunk.js": "/sem5_frontend/static/js/787.d4aba7ab.chunk.js",
+    "static/media/opel.jpg": "/sem5_frontend/static/media/opel.d8781260620089b0edde.jpg",
+    "static/media/prague.jpg": "/sem5_frontend/static/media/prague.dad8343951fdd854b189.jpg",
+    "static/media/scoda.jpg": "/sem5_frontend/static/media/scoda.e35c1cc7414ce12aa1ca.jpg",
+    "static/media/bmw.jpg": "/sem5_frontend/static/media/bmw.493de0646474ea2209df.jpg",
+    "static/media/toyota.jpg": "/sem5_frontend/static/media/toyota.a8f5c2e4d7e0e8812b68.jpg",
+    "static/media/ford.jpg": "/sem5_frontend/static/media/ford.a6dbe430f721a9c117ee.jpg",
+    "static/media/fiat.jpg": "/sem5_frontend/static/media/fiat.4def89c974caae0b3cc2.jpg",
     "index.html": "/sem5_frontend/index.html",
     "main.bcf5385e.css.map": "/sem5_frontend/static/css/main.bcf5385e.css.map",
-    "main.fb39a6ed.js.map": "/sem5_frontend/static/js/main.fb39a6ed.js.map",
+    "main.f222c193.js.map": "/sem5_frontend/static/js/main.f222c193.js.map",
     "787.d4aba7ab.chunk.js.map": "/sem5_frontend/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcf5385e.css",
-    "static/js/main.fb39a6ed.js"
+    "static/js/main.f222c193.js"
   ]
 }
