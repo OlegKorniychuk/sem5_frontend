@@ -3,11 +3,13 @@ import './style.css';
 import Content from './components/Content.js';
 import Header from './components/Header.js';
 import Image from './components/Image.js';
+import GoodsCard from './components/GoodsCard.js';
 
 // App component
 function App() {
   const [hasNewImage, setHasNewImage] = useState(false);
   const [newImageSize, setNewImageSize] = useState(100);
+  const [labPart, setLabPart] = useState(1);
 
   const handleAddImage = () => {
     setNewImageSize(100);
@@ -26,8 +28,21 @@ function App() {
     setHasNewImage(false);
   };
 
+  const goToFirstPart = () => {
+    setLabPart(1);
+  }
+
+  const goToSecondPart = () => {
+    setLabPart(2);
+  }
+
   return (
-    <div className="App">
+    <>
+    {labPart === 1 ? (
+      <div className="App">
+      <div>
+        <button onClick={goToSecondPart}>Part 2</button>
+      </div>
       <Header/>
       <Content />
       <Image />
@@ -57,6 +72,23 @@ function App() {
           <></>
         )}
     </div>
+    ) : (
+      <div>
+        <div>
+          <button onClick={goToFirstPart}>Part 1</button>
+        </div>
+        <div className='goodsCardsContainer'>
+          <GoodsCard name='BMW' price='1250000' image='/bmw.jpg' />
+          <GoodsCard name='Fiat' price='470000' image='/fiat.jpg' />
+          <GoodsCard name='Ford' price='385000' image='/ford.jpg' />
+          <GoodsCard name='Opel' price='420000' image='/opel.jpg' />
+          <GoodsCard name='Scoda' price='710000' image='/scoda.jpg' />
+          <GoodsCard name='Toyota' price='940000' image='/toyota.jpg' />
+        </div>
+      </div>
+    )}
+    </>
+    
   );
 }
 

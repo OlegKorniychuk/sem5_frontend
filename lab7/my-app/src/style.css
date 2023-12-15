@@ -11,3 +11,21 @@
 .container {
   display: flex;
 }
+
+.goodsCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.goodsCardsContainer img {
+  height: 300px;
+  width: auto;
+}
+
+.goodsCard {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px gray;
+}
