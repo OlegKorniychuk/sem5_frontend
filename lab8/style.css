@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.screen, .menu{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* MENU */
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.links li {
+  margin-left: 10px;
+}
+
+.phone-number {
+  display: flex;
+}
+
+/* SCREEN1 */
+
+.home {
+  background-image: url(images/student1.jpg);
+  height: 100vh;
+}
