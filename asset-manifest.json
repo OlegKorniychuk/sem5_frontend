@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/OlegKorniychuk/sem5_frontend/static/css/main.bcf5385e.css",
+    "main.js": "/OlegKorniychuk/sem5_frontend/static/js/main.a4f6b581.js",
+    "static/js/787.d4aba7ab.chunk.js": "/OlegKorniychuk/sem5_frontend/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/OlegKorniychuk/sem5_frontend/index.html",
+    "main.bcf5385e.css.map": "/OlegKorniychuk/sem5_frontend/static/css/main.bcf5385e.css.map",
+    "main.a4f6b581.js.map": "/OlegKorniychuk/sem5_frontend/static/js/main.a4f6b581.js.map",
+    "787.d4aba7ab.chunk.js.map": "/OlegKorniychuk/sem5_frontend/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcf5385e.css",
+    "static/js/main.a4f6b581.js"
+  ]
+}
